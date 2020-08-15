@@ -1,5 +1,11 @@
 ### Hi there 👋
 
+My name is Geert-Jan (Gordon) Zwiers. I am a Dutch DevOps Engineer and currently work with the Azure platform, Ansible, Docker and Linux systems. I have also worked with Node.js, TypeScript, C# and Rust.
+
+In my spare time I like to go on hikes in nature, I play the piano (just a little bit) and I try to keep fit by fencing.
+
+
+
 <!--
 **GJZwiers/GJZwiers** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
