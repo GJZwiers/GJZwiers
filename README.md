@@ -1,9 +1,8 @@
 ### Hi there 👋
 
-My name is Geert-Jan (Gordon) Zwiers. I am a Dutch DevOps Engineer and currently work with the Azure platform, Ansible, Docker and Linux systems. I have also worked with Node.js, TypeScript, C# and Rust.
+My name is Geert-Jan (Gordon) Zwiers. I am a Dutch DevOps Engineer and currently work with the Azure platform, Ansible, Docker and Linux systems. I have also worked with Node.js, TypeScript, C# and I'm learning Rust these days. I wasn't always an engineer, in fact I studied environmental science. My dream is to develop software for sustainable purposes in the future. In my spare time I like to go hiking in nature, playing the piano (just a little bit) and trying to keep fit by fencing.
 
-In my spare time I like to go on hikes in nature, I play the piano (just a little bit) and I try to keep fit by fencing.
-
+When developing software, I like to put myself in someone else's shoes and think about what they need to make life easier.
 
 
 <!--
