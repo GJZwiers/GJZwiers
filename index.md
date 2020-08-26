@@ -1,39 +1,14 @@
-## Welcome to GitHub Pages
+## Welcome to Gordon's
 
-You can use the [editor on GitHub](https://github.com/GJZwiers/GJZwiers/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Fundamentals
+1. [Programming](programming.md)
+2. [Versioning](versioning.md)
+3. [Documenting](documenting.md)
+4. [Diagramming](diagramming.md)
+5. [Designing an Application Programming Interface (API)](apis.md)
+6. [Creating a Command Line Interface (CLI)](clis.md)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-[test](page.md)
+### About
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GJZwiers/GJZwiers/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+These pages contain tutorials on the topic of coding. My intention is to write them independently of any specific programming language, although sometimes one will be used for demonstrative purposes.
