@@ -1,0 +1,12 @@
+#### Tell and Show
+
+**flow control**
+if/else
+
+**loops**
+Variables to reuse values
+Loops to reuse actions
+Functions to reuse behaviors
+Classes to reuse behaviors and create instances with their own data
+
+Do you have a lucky number? If so, ~~you're likely crazy~~ you'll want to write it down so you  never forget it. 
