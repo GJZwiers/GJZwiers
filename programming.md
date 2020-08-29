@@ -1,18 +1,18 @@
-# Fundamentals - 1
+# Fundamentals - Programming
 
 This page aims to provide a high-level overview of common programming concepts. It begins with a bit of theory on each and then it shows them in practice through examples.
 
 ### On this page
-1. [Storing Data in Variables](#variables)
-2. [Repeating Actions with Loops](#loops)
-3. [Controlling Program Flow](#flow-control)
-4. [Writing Functions for Reusable Behaviors](#functions)
+1. [Storing Data in Variables](#storing-data-in-variables)
+2. [Repeating Actions with Loops](#repeating-actions-with-loops)
+3. [Controlling Program Flow](#cointrolling-program-flow)
+4. [Writing Functions for Reusable Behaviors](#writing-functions-for-reusable-behaviors)
 
 ## Storing Data in Variables
 
 In programming, application data is stored in **variables**. Every variable has a _name_, a _type_, and a _value_. 
 
-The name can be almost anything, although there are usually a few rules to follow and a couple of good practices to uphold. One good principle is simply to __say what you mean__ when naming variables. Programming is not like writing a novel, where you might choose words that are exceptionally beautiful, provocative and/or extravagant. When writing code we want to use names that are clear, concise and descriptive instead. This helps to provide clarity for both yourself and your fellow developers, both in the present and in the future.
+The name can be almost anything, although usually there are a few rules to follow and a couple of good practices to uphold. One good principle is simply to __say what you mean__ when naming variables. Programming is not like writing a novel, where you might choose words that are exceptionally beautiful, provocative and/or extravagant. When writing code we want to use names that are clear, concise and descriptive instead. This helps to provide clarity for both yourself and your fellow developers, both in the present and in the future.
 
 _Types_ are needed for the computer to understand how to work with a particular variable. Some common data types you'll come across are integers (whole numbers), floating point numbers, strings of text, booleans (true or false values) and more complex objects such as lists. Types can be _static_ where the type of the variable is not permitted to change over the course of a program, whilst others have _dynamic_ types which can. 
 
@@ -26,19 +26,20 @@ The _value_ of a variable is closely linked to its type. An integer value might 
 
 When a value does not change, it is called a _constant_, as opposed to the _static_ unchanging type mentioned before. Constant values are often written in capitals to distinguish them from other numeric values.
 
-Programming syntax has certain **keywords**. There words are reserved by the language for a certain task and cannot be used as a variable name.
+Programming syntax has certain **keywords**. There words are reserved by the language for a certain task and cannot be used as a variable name. One example is the word _if_ which is reserved for something else.
 
 
 ### Examples
 
 
-
+How-not-to
 ```
 var jimmy = 5;
 
 print('Jimmy is : ', jimmy)
 
 ```
+
 ```
 var age = 5;
 
@@ -47,6 +48,8 @@ print('Jimmy's age is: ', age)
 ```
 
 ## Loops
+
+
 
 ```
 var counter = 0;

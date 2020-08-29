@@ -1,4 +1,4 @@
-## Welcome to Gordon's
+## Welcome to Gordon's Guides
 
 ### Fundamentals
 1. [Programming](programming.md)
@@ -8,7 +8,5 @@
 5. [Designing an Application Programming Interface (API)](apis.md)
 6. [Creating a Command Line Interface (CLI)](clis.md)
 
-
 ### About
-
-These pages contain tutorials on the topic of coding. My intention is to write them independently of any specific programming language, although sometimes one will be used for demonstrative purposes.
+These pages contain tutorials on the topic of coding. My intention is to write them independently of any specific programming language, although sometimes an example language will be used for demonstrative purposes.
