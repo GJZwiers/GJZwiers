@@ -26,33 +26,67 @@ The _value_ of a variable is closely linked to its type. An integer value might 
 
 When a value does not change, it is called a _constant_, as opposed to the _static_ unchanging type mentioned before. Constant values are often written in capitals to distinguish them from other numeric values.
 
-Programming syntax has certain **keywords**. There words are reserved by the language for a certain task and cannot be used as a variable name. One example is the word _if_ which is reserved for something else.
+Programming syntax has certain **keywords**. There words are reserved by the language for a certain task and cannot be used as a variable name. One example is the word _if_ which is reserved for applying program logic.
 
 
 ### Examples
 
+Variable declarations tend to have the following structure:
+```
+name = value
+```
+A language often places a variable keyword such as `var` at the start of the declaration as well:
+```
+var name = value
+```
+When a variable name has more than one word, we cannot use spaces. Instead, we can glue the words together and write the first character of every word after the first in uppercase. This style is called camel case, supposedly because of how the uppercase characters protrude like the humps on a camel's back:
 
-How-not-to
+```
+var nameInCamelCase = ...
+```
+
+Another common style for variable names is snake case, which uses underscores between the words:
+```
+var name_in_snake_case = ...
+```
+
+Let's look at how you shouldn't name a variable. Check out the code below, which declares a variable with name 'Jimmy' and value '5' and then prints the text 'Jimmy is 5 years old' to a console window, using the value of the variable.
 ```
 var jimmy = 5;
 
-print('Jimmy is : ', jimmy)
-
+console.log('Jimmy is : {1} years old', jimmy)
 ```
+
+The problem here is that although Jimmy is five, five is not Jimmy. Five is Jimmy's age. Let's change that:
+```
+var jimmiesAge = 5;
+
+console.log('Jimmy is : {1} years old', jimmiesAge)
+```
+This is better, however, imagine there's someone else that's five years old as well, but not named Jimmy. We could try this:
+```
+var jimmiesAge = 5;
+
+console.log('Jimmy is : {1} years old', jimmiesAge);
+console.log('Angie is : {1} years old', jimmiesAge);
+```
+From a functional perspective this works fine, but this approach gets confusing quite fast. both Jimmy and Angie have a shared attribute, which is their age.
 
 ```
 var age = 5;
 
-print('Jimmy's age is: ', age)
-
+console.log('Jimmy is : {1} years old', age);
+console.log('Angie is : {1} years old', age);
 ```
 
-## Loops
+
+## Repeating Actions with Loops
 
 
 
 ```
 var counter = 0;
+
 counter = counter + 1;
 counter = counter + 1;
 counter = counter + 1;
@@ -83,12 +117,10 @@ print(counter)
 ```
 
 
-## Repeating Actions with Loops
-
-
-
-## Controlling Program Flow
+## Controlling Program Flow with Logic
 
 
 
 ## Writing Reusable Behaviors with Functions
+
+
