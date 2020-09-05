@@ -175,6 +175,9 @@ if else
 ---
 
 ## Functions
+
+_A function performs a specific task with different inputs in multiple places._
+
 Functions provide a means to reuse actions in multiple places. They are blocks of code that can take input, do something with it and return output. However, they can also take zero inputs and/or return no outputs at all. This is unlike mathematical functions which must have a unique output for every unique input.
 In programming function inputs are called **parameters** and function outputs are called **return** values.
 
