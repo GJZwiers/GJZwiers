@@ -1,25 +1,29 @@
-## Welcome to One, Zero, Code
+## Welcome to Zero, One, Code
 <!-- ## Welcome to Zero, One, Code -->
 This project contains guides for learning the common concepts and principles in computer programming. It is not specific to any language, though different language samples are used to illuminate each topic.
 
+While computers have buttons, humans have sliders. When you read any of these pages, that is a single exposure 
+
 ### Fundamentals
-1. [Coding with Basic Building Blocks](programming.md)
+##### Learn how to write programs in any language
+1. [Coding with Basics](programming.md)
 
-2. [Working with Different Types of Data](data.md)
+2. [Working with Different Data Types](data.md)
 
-3. [Organizing Code in Objects and Classes](oop.md)
+3. [Organizing Related Code in Classes](oop.md)
 
-4. [Creating Abstractions between Components](interactions.md)
+4. [Creating Abstractions](interactions.md)
 
-5. [Structuring Applications as they Grow](structure.md)
+5. [Structuring Growing Applications](structure.md)
 
 
 ### User-Computer Interfaces
-1. [Working with Terminals](terminals.md)
+#####
+1. [Interacting with Terminals](terminals.md)
 
-1. [Designing Application Programming Interfaces](apis.md)
+2. [Designing Application Programming Interfaces](apis.md)
 
-2. [Creating Command Line Interfaces](clis.md)
+3. [Creating Command Line Interfaces](clis.md)
 
 
 ### Low-Level Programming
