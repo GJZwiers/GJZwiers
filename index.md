@@ -16,9 +16,16 @@ While computers have buttons, humans have sliders. When you read any of these pa
 
 5. [Structuring Growing Applications](structure.md)
 
+### Application Maintenance
+##### Learn how to improve existing code, keep versions and write down the way it works
+1. [Refactoring Code](refactoring.md)
+
+2. [Tracking Versions](versioning.md)
+
+3. [Writing Documentation](documenting.md)
 
 ### User-Computer Interfaces
-#####
+##### Learn how to abstract complex logic in simpler forms and commands
 1. [Interacting with Terminals](terminals.md)
 
 2. [Designing Application Programming Interfaces](apis.md)
@@ -27,27 +34,24 @@ While computers have buttons, humans have sliders. When you read any of these pa
 
 
 ### Low-Level Programming
-1. [Assembly Language](assembly.md)
+##### Learn how high-level languages work under the hood
+1. [Translating to Assembly](assembly.md)
 
 2. [Machine Code](machine_code.md)
 
-3. [Compiling to Binary](compilers.md)
-
-
-### Application Maintenance
-1. [Tracking Versions](versioning.md)
-
-2. [Writing Documentation](documenting.md)
+3. [Compilers](compilers.md)
 
 
 ### Make Life Easier
+##### Learn how to develop faster and more smoothly
 1. [Using Libraries and Frameworks](libraries-frameworks.md) 
 
 2. [Navigating without a Mouse](mouseless-navigation.md)
 
-3. [Automating Common Tasks with Scripts](scripting.md)
+3. [Automating Common Tasks](scripting.md)
 
 
 ### Security
+##### Learn how to secure digital information
 1. [Encrypting Information](encryption.md)
 
