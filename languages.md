@@ -17,7 +17,3 @@ A relatively new language designed for performance and security. It is syntactic
 
 
 ### Standardization and why there is no unified language
-
-
-
-`S`tandard `Lang`uage or `slang` is an effort to standardize high-level programming languages.
