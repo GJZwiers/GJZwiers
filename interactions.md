@@ -1,1 +1,1 @@
-Inheritance, Composition, Design Patterns
+Inheritance, Composition, Design Patterns, Encapsulation, Polymorphism

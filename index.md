@@ -2,13 +2,13 @@
 <!-- ## Welcome to Zero, One, Code -->
 This project contains guides for learning the common concepts and principles in computer programming. It is not specific to any language, though different language samples are used to illuminate each topic.
 
-While computers have buttons, humans have sliders. When you read any of these pages, that is a single exposure 
+Computers have buttons, humans have sliders.
 
 ### Fundamentals
 ##### Learn how to write programs in any language
 1. [Coding with Basics](programming.md)
 
-2. [Working with Different Data Types](data.md)
+2. [Introducing Data Types](data.md)
 
 3. [Organizing Related Code in Classes](oop.md)
 
