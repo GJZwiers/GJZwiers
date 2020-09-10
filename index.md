@@ -8,17 +8,25 @@ This project contains guides for learning the common concepts and principles in 
 
 2. [Introducing Data Types](data.md)
 
-3. [Organizing Related Code in Classes](oop.md)
+4. [Using Arrays and Objects](arrays-and-objects.md)
 
-4. [Creating Abstractions](interactions.md)
+5. [Handling Errors](errors.md)
 
-5. [Structuring Growing Applications](structure.md)
+### Abstractions
+##### Learn how to create abstractions to design more flexible and reusable code
+1. [Organizing Related Code in Classes](oop.md)
+
+2. [Designing Advanced Class Relationships]()
+
+3. [Interchanging parts with Object Interfaces](interchangeable-parts.md)
+
+4. [Applying Design Patterns](design-patterns.md)
 
 ### Application Maintenance
-##### Learn how to improve existing code, keep versions and write down the way it works
+##### Learn how to improve existing code, keep and update versions and write down how your code works
 1. [Refactoring Code](refactoring.md)
 
-2. [Tracking Versions](versioning.md)
+2. [Controlling Versions](versioning.md)
 
 3. [Writing Documentation](documenting.md)
 
