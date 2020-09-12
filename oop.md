@@ -1,14 +1,24 @@
 # Object-Oriented Programming
+
+> In this guide you will learn how to organize application parts through an abstraction called classes.
+
 As programs grow, developers need ways to structure and organize the relationships and interactions between application components. One way of doing so is called **object-oriented programming** (OOP), where related data and behavior are wrapped in **classes**.
 
-_Classes_ are objects that store a blueprint to make one or more **instances**. Each instance has its own data and behaves independently of other instances of the same class.
+_Classes_ are objects with blueprints for variables and functions that work together. Once defined, a programmer can create multiple **instances** of a class where each instance can be in a different state. This means that while each instance is made from the same blueprint, it can have its own values for the data at any given time.
 
-## Common Concepts of Classes
-Variables defined inside classes are called **fields**. Sometimes there is extra logic involved in getting or setting the value of a particular field, in which case it is called a **property** with a **getter** and/or a **setter**. Field and property are often used loosely when people talk about classes.
+## Terminology
+Variables defined inside classes are called **fields**, while functions in classes are called **methods**.  Some fields have additional logic involved in assigning and retrieving their values, in which case they are called **properties** that use a **getter** and/or a **setter** method. However, the terms _field_ and _property_ are often used loosely.  
 
-Functions as part of classes are called **methods**. In certain languages class methods can be prefixed with an **access modifier** which determines if that method can be called by other parts of the application. **Public** access means the method is callable from anywhere, while **Private** means it can only be called from other methods inside the class. **Protected** methods can be called from the inside of the class and from other classes that derive from it (For more information, see [Inheritance](interactions.md)). 
+Instead of a variable keyword, class fields are prefixed with one or more **modifiers**. For example, many languages use a **readonly modifier** to mark a field's value as constant. In addition, fields and methods can be prefixed with an **access modifier**. This attribute determines what parts of the application have access. **Public** means a field or method can be accessed by anything inside or outside the class. **Private** means only the class itself has access, while **protected** means the class as well as other classes that extend from it have access (for more information on protected access see [Inheritance](interactions.md)). More access modifiers exist in certain languages but the three mentioned here are used most often.
 
-Fields that hold constant values can often be marked with a **readonly** modifier.
+Classes use a special **constructor** method to make new instances. This method sits on the **static side** of a class meaning it can called on the class itself. A programmer can define additional methods on the static side using the **static modifier**. All other methods sit on the **instance side** and can only be called on instances of the class made with the constructor.
+
+Instances have a way to refer to themselves, which is needed to differentiate between multiple instances. This is done using a self-referencing keyword, generally named **this** or **self** in the programming language.
+
+
+## Class Design
+Classes tend to have a public side which exposes the results of their private or internal operations.
+
 
 
 ### Samples - Defining a Class
@@ -43,7 +53,7 @@ impl Calculator {
 
 }
 ```
-##### * Rust separates classes into `struct`ures and `impl`ementations. This is related to advanced OOP topics which are explained in more detail in [Creating Abstractions](interactions.md).
+##### * In the Rust language classes are split into `struct`ures and `impl`ementations. This has to do with advanced OOP topics which you can read more about in [Interchangeable Parts](interchangeable-parts.md).
 
 ## Initialization
 An instance of a class is initialized with a special method called a **constructor**. This method can take input parameters that are used to set the starting state of that instance.
@@ -88,3 +98,10 @@ impl Calculator {
     }
 }
 ```
+
+
+## Self-Reference
+
+
+
+## 

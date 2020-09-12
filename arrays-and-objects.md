@@ -1,22 +1,14 @@
 # Using Lists and Objects
 
-> In this guide you will learn about store and organize collections of data.
-
-## Lists
-Programming languages offer ways to store lists of values. Across languages, three kinds of list types are often available:
-* `Static arrays` have a fixed number of elements of the same type
-* `Enums` contain a group of distinct values
-* `Array lists`, also called `dynamic arrays` or `vectors` hold a variable number of elements and types
-
-Each element in a list has an **index** that can be used to access its value.
+> In this guide you will learn how programming languages store and organize collections of data.
 
 ## Objects
+_Objects_ are collections of data stored in **key-value pairs**. This means a value can be accessed by looking up its key. Object keys can be strings or numbers depending on the language and the implementation.
 
-_Objects_ are collections of data stored in **key-value pairs**. This means a value can be accessed by looking up its corresponding key. Object keys can be strings or numbers depending on the language.
+In general there are two ways to get a value from an object. The first is **index notation** where the name of the object variable is followed by the name of the key as a string enclosed in square brackets, for example `myObject["myKey"]`.  
+The second form is called **dot notation** where the name of the object variable is followed by a dot `.` and the name of the key, for example `myObject.myKey`.
 
-There are generally two ways to get a value from an object. The first is called **dot notation** where the name of the variable is typed that has stored said object and follow it with a dot and the name of the key that holds the value. The second is string index notation where the name of the object variable is followed with square brackets including the name of the key as a String e.g. `["key"]`
-
-The following samples show how an object literal is declared and how a value `"John"` can be accessed by its corresponding key `firstName`.
+The following samples show how an object literal is declared and how the value `"John"` can be accessing the corresponding key `firstName`.
 
 ### Samples -  Object Declaration and Access
 
@@ -65,7 +57,48 @@ let person = Person { firstName, lastName };
 println!("{}, {}", person.firstName, person.lastName);
 ```
 
+## Collections
+Programming languages offer ways to store lists of values. They are types of objects so commonly used that most languages have them built-in. Across languages, four types of lists are often found:
+* `Static arrays` hold a fixed number of elements of the _same_ type
+* `Tuples` hold a fixed number of elements of _different_ types
+* `Enums` are used to group values that are _related_ but _distinct_ from each other
+* `Array lists`, also called `dynamic arrays` or `vectors` can hold a variable number of elements and types
 
+Collections are indexed meaning each element has an **index** that can be used to access its value. Indexes are either integers or strings.
+
+### Samples - Collections
+A static array in C#:
+```csharp
+string[] names = {"Katie", "Bob", "Tony"};
+
+Console.WriteLine(names[0]); // Writes "Katie" to the console.
+```
+
+A tuple in Python:
+```python
+prices_and_items = (10, "Book", 2, "Apple")
+
+print(tupl[3])  # Prints "Apple".
+```
+
+An enum in Rust:
+```rust
+enum Seasons {
+    Spring,
+    Summer,
+    Autumn,
+    Winter,
+}
+
+println!("{?:}", Seasons::Summer);  // Pretty prints "Summer" (casting the enum variant to a string).
+```
+
+A dynamic array in JavaScript:
+```javascript
+let names = ["Katie", "Bob", "Tony"];
+
+console.log(names[0]);  // Prints "Katie"
+```
 
 
 ## Value Types versus Reference Types
