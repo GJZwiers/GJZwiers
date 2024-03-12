@@ -6,4 +6,4 @@ Hi! I’m a freelance developer focusing on:
 
 Also, I have experience with Rust through my work for open-source projects.
 
-Want to hire me? Contact me at info@vanwebnaaryep.nl
+Want to hire me? Contact me at info@applifting.nl
